@@ -27,3 +27,12 @@ const perguntas2 =[
         ],
     },
 ]
+enuciado: "Quantos dias tem um ano?" =[
+    {
+        enunciado; "Pergunta1",
+        alternativas;[
+            "alternativa1",
+            "alternativa2"
+        ],
+    },
+]
