@@ -27,12 +27,20 @@ const perguntas2 =[
         ],
     },
 ]
-enuciado: "Quantos dias tem um ano?" =[
+const perguntas =[
     {
-        enunciado; "Pergunta1",
+        enunciado; "Quantos dias tem um ano",
         alternativas;[
-            "alternativa1",
-            "alternativa2"
+            "365",
+            "366"
         ],
     },
 ]
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(); {
+    perguntaAtual = pergunta{atual};
+    caixaPerguntas.textContent = perguntaAtual.enuciado;
+}
+mostraPergunta();
